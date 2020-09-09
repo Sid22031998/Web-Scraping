@@ -2,7 +2,7 @@
 # import requests
 # from urllib.request import urlopen
 
-# url = "http://siddharthsingh.herokuapp.com/index.html"
+# url = "http://*****************************"
 # req = urlopen(url).read().decode("utf-8")
 # soup = BeautifulSoup(req, 'html.parser')
 # print(soup)
