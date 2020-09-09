@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
-url = "https://www.newegg.com/global/in-en/p/pl?d=graphics+card"
+url = "https://www.newegg.com/global/in-en/p/pl?d=graphics+card" # gray url
 req=requests.get(url).text
 soup=BeautifulSoup(req, "html.parser")
 # print(soup.h1)
